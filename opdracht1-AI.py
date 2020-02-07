@@ -3,7 +3,7 @@ def main():
     # Gegevens van de gebruiker krijgen
     aantal = int(input('Geef een cijfer: '))
     omkeer = input('Wilt u de pyramide omkeren? ')
-    character = input('welk character wilt u hebben? ')
+    character = input('Welk character wilt u hebben? ')
     forofwhile = input('For loop of while loop? ')
 
     # Het programma met een for-loop of een while-loop uitvoeren, op basis van de ontvangen gegevens van de gebruiker
