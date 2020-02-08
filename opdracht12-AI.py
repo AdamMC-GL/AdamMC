@@ -1,9 +1,7 @@
+
 for numbers in range(1, 101, 1):
-    if (numbers % 3) == 0 and (numbers % 5) == 0:
-        print('FizzBuzz', end=', ')
-    elif (numbers % 3) == 0:
-        print('Fizz', end=', ')
-    elif (numbers % 5) == 0:
-        print('Buzz', end=', ')
-    else:
-        print(str(numbers), end=', ')
+    output = ''
+    if (numbers % 3) == 0: output += 'Fizz'
+    if (numbers % 5) == 0: output += 'Buzz'
+    if output == '': output = numbers
+    print(output)
